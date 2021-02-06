@@ -1,0 +1,64 @@
+{
+    "map": {
+        "pattern_opacity": 0.6,
+        "tiles": {
+            "floor": "graphics/tiles/floor.png",
+            "wall": "graphics/tiles/wall.png",
+            "enemy": "graphics/tiles/enemy.png",
+            "treasure": "graphics/tiles/treasure.png",
+            "doorenter": "graphics/tiles/entrydoor.png",
+            "door": "graphics/tiles/door.png",
+            "lock": "graphics/tiles/lock.png",
+            "hero": "graphics/tiles/heroTile.png"
+        },
+        "mesopatterns": {
+            "ambush": "graphics/mesopatterns/ambush.png",
+            "guard_room": "graphics/mesopatterns/guard_room.png",
+            "guarded_treasure": "graphics/mesopatterns/guarded_treasure.png",
+            "treasure_room": "graphics/mesopatterns/treasure_room.png"
+        },
+        "examples": {
+            "chamber": "graphics/examples/chamber.png",
+            "connector": "graphics/examples/connector.png",
+            "corridor": "graphics/examples/corridor.png",
+            "dead_end": "graphics/examples/dead_end.png",
+            "lock": "graphics/tiles/lock.png"
+        },
+        "dungeonbrushes": {
+            "move": "graphics/dungeonbrushes/move-2-colored.png",
+            "connector": "graphics/dungeonbrushes/connection.png",
+             "addRoom": "graphics/dungeonbrushes/room-add-2.png",
+             "removeRoom": "graphics/dungeonbrushes/room-remove.png",
+             "init": "graphics/dungeonbrushes/heroBrush.png"
+        },
+        "render": {
+            "height": 1000,
+            "width": 1000
+        }
+    },
+    "game": {
+        "dimensions": {
+            "m": 11,
+            "n": 11
+        },
+        "doors": 4
+    },
+    "collectors": {
+        "map_collector": {
+            "_comment": "~/ denotes the home directory. Slashes will be converted to backslashes on Windows.",
+            "path": "~/eddy/maps/",
+            "active": true,
+            "save_all": false
+        },
+        "image_exporter": {
+            "_comment": "~/ denotes the home directory. Slashes will be converted to backslashes on Windows.",
+            "path": "~/eddy/maps/rendered/",
+            "active": true
+        },
+        "generation_collector": {
+            "_comment": "~/ denotes the home directory. Slashes will be converted to backslashes on Windows.",
+            "path": "~/eddy/",
+            "active": true
+        }        
+    }
+}

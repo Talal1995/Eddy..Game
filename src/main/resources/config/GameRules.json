@@ -1,0 +1,53 @@
+{
+  "Walls" : {
+  "walkthrough": false,
+  "seethrough": true,
+    "movable" : true,
+    "Damage" : {
+      "doesDamage": false,
+      "damageValue": 1
+    },
+    "destructable" : true
+
+},
+  "Enemy" : {
+    "health" : 10,
+    "attack" : 2,
+    "enemyAi"  : "",
+    "shooting" : true
+  },
+  "Player" : {
+    "health" : 10,
+    "closeAttack" : true,
+    "closeAttackValue" : 2,
+    "rangeAttack" : true,
+    "rangeAttackValue" : 4,
+    "rangeAttackDistance" : 5,
+    "moveWithMouse" : true,
+    "moveWithKeyboard" : true
+
+  },
+  "Treasure": {
+    "pointsValue" : 10,
+    "spawnEnemies" : false,
+    "spawnBoss" : false,
+    "giveHealth" : true,
+    "healthValue" : 1
+  },
+  "Boss": {
+    "health" : 20,
+    "attack" : 1,
+    "bossAi"  : "",
+    "shooting" : true,
+    "giveHealthOnKill" : true,
+    "giveHealthOnKillValue" : 10,
+    "dropTreasureOnKill" : true,
+    "lockDoorWhenAlive" : true
+  },
+  "GameEndGoal" : {
+    "collectAllTreasure" : false,
+    "reachPointsValue" : true,
+    "pointsAmount": 100,
+    "killAllEnemies" : false
+  }
+}
